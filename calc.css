@@ -1,0 +1,76 @@
+.calculator
+{
+    width: 400px;
+    height: 450px;
+    background-color: grey;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    border-radius: 10px;
+    }
+
+
+#screen
+{
+    margin: none;
+    border: none;
+    position: relative;
+    top: 25px;
+    left: 90px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    pointer-events: none;
+}
+.row1
+{
+    position: relative;
+    padding: none;
+    border: none;
+    left: 150px;
+    top: 45px;
+}
+.row2
+{
+    position: relative;
+    padding:none;
+    border: none;
+    left: 150px;
+    top: 60px;
+}
+.btn
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+.row3
+{
+    position: relative;
+    padding:none;
+    border: none;
+    top: 75px;
+    left: 150px;
+}
+.row4
+{
+    position: relative;
+    padding:none;
+    border: none;
+    top: 85px;
+    left: 150px;
+}
+.buttons
+{
+    position: relative;
+    left: -40px;
+}
+.clear
+{
+    position: relative;
+    padding:none;
+    border: none;
+    top: 95px;
+    left: 230px;
+}
